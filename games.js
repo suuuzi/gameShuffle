@@ -10,5 +10,5 @@ var games = Array("http://www.shooter-bubble.com/bubbleshooter2.swf",
                   "http://afonsopacifer.github.io/egg-emergency/");
 
 var getGame = function(){
-  return games[Math.floor(Math.random() * games.http://gariel.pythonanywhere.com/static/Gro.swflength)];
+  return games[Math.floor(Math.random() * games.length)];
 };
